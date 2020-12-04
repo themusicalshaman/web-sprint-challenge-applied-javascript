@@ -44,7 +44,7 @@ function createArticles(articles) {
 }
 function createArticle(article) {
     const articleDiv = document.createElement("div")
-    articleDiv.classList.add('card')
+    articleDiv.classList.add("card")
     const articleHtml = `<div class="headline">${article.headline}</div>
         <div class="author">
         <div class="img-container">
